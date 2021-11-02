@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+	<cim />
+	<eloado id="fgt">
+		<nev id="dxc" nev="Kiss Gabor" />
+		<adoszam id="ado" szam="12345678" />
+		<lakcim id="lkc" cim="1234 Miskolc, Futó u. 54" />
+	</eloado>
+	<hallgatok id="odi">
+		<hallgato id="diak1">
+			<nev id="tzu" nev="Ismeretlen Istvan" />
+			<lakcim id="lkc2" cim="1234 Miskolc, Gabor Aron u. 54" />
+		</hallgato>
+	</hallgatok>
+	<hegyszin id="hsz"/>
+	<datum id="dt" ido="2021.01.10"/>
+</konferencia>
