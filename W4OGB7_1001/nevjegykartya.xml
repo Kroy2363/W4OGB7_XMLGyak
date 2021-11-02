@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nevjegykartyak>
+    <nevjegykartya id="1">
+        <nev>Kiss János</nev>
+        <ceg>
+            <nev>Kiss Társa Kft</nev>
+            <cim>
+                <iranyitoszam>3525</iranyitoszam>
+                <varos>Miskolc</varos>
+                <utca>Futó utca</utca>
+                <hazszam>998</hazszam>
+            </cim>
+            <telefonszam id="korzet"></telefonszam>
+            <weblap>valami.hu</weblap>
+        </ceg>
+        <beosztas>Vezető</beosztas>
+        <telefonszam id="korzet2"></telefonszam>
+        <email>vezeto@valami.hu</email>
+    </nevjegykartya>
+</nevjegykartyak>
