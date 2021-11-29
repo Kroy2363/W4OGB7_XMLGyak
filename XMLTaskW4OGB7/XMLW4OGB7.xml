@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <bolt idno="1">
+        <boltadatok>
+            <szekhely>3713 Miskolc, Kazinczy utca 22.</szekhely>
+            <telefonszam>+36/706587632</telefonszam>
+            <email>vezeto@valami.hu</email>
+        </boltadatok>
+        <munkavallalo>
+            <nev>
+                <v.nev>Kiss</v.nev>
+                <k.nev>Gábor</k.nev>
+            </nev>
+            <cim>
+                <ir>3512</ir>
+                <varos>Kazincbarcika</varos>
+                <utcahazszam>Futó utca 76</utcahazszam>
+            </cim>
+            <szulido>1992.04.85.</szulido>
+            <jogosultsag>Elsődleges</jogosultsag>
+        </munkavallalo>
+        <munkavallalo>
+            <nev>
+                <v.nev>Nagy</v.nev>
+                <k.nev>József</k.nev>
+            </nev>
+            <cim>
+                <ir>3523</ir>
+                <varos>Nagykanizsa</varos>
+                <utcahazszam>Halmos utca 76</utcahazszam>
+            </cim>
+            <szulido>1982.04.85.</szulido>
+            <jogosultsag>Másodlagos</jogosultsag>
+        </munkavallalo>
+        <termek>
+            <elnevezes>Processzor</elnevezes>
+            <cikkszam>123456987-HU</cikkszam>
+            <ar>39999</ar>
+            <darab>1</darab>
+        </termek>
+        <termek>
+            <elnevezes>Gépház</elnevezes>
+            <cikkszam>789654123-HU</cikkszam>
+            <ar>19999</ar>
+            <darab>1</darab>
+        </termek>
+        <termek>
+            <elnevezes>Asztal</elnevezes>
+            <cikkszam>65432897-HU</cikkszam>
+            <ar>59999</ar>
+            <darab>10</darab>
+        </termek>
+        <ugyfel>
+            <nev>
+                <v.nev>Nagy</v.nev>
+                <k.nev>Erika</k.nev>
+            </nev>
+            <cim>
+                <ir>1234</ir>
+                <varos>Mályi</varos>
+                <utcahazszam>Fő utca 10.</utcahazszam>
+            </cim>
+            <email>nagyeri@gmail.com</email>
+        </ugyfel>
+        <rendeles>
+            <azonosito></azonosito>
+            <cikkszam></cikkszam>
+            <darabszam></darabszam>
+        </rendeles>
+    </bolt>

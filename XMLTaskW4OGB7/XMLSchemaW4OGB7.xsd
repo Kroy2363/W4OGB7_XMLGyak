@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bolt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="boltadatok">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="szekhely" type="xs:string" />
+              <xs:element name="telefonszam" type="xs:string" />
+              <xs:element name="email" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="munkavallalo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nev">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="v.nev" type="xs:string" />
+                    <xs:element name="k.nev" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="cim">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ir" type="xs:unsignedShort" />
+                    <xs:element name="varos" type="xs:string" />
+                    <xs:element name="utcahazszam" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="szulido" type="xs:string" />
+              <xs:element name="jogosultsag" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="termek">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="elnevezes" type="xs:string" />
+              <xs:element name="cikkszam" type="xs:string" />
+              <xs:element name="ar" type="xs:string" />
+              <xs:element name="darab" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ugyfel">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nev">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="v.nev" type="xs:string" />
+                    <xs:element name="k.nev" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="cim">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ir" type="xs:string" />
+                    <xs:element name="varos" type="xs:string" />
+                    <xs:element name="utcahazszam" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="email" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rendeles">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="azonosito" />
+              <xs:element name="cikkszam" />
+              <xs:element name="darabszam" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
